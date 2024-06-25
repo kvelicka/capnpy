@@ -5,7 +5,7 @@ import os
 import types
 import subprocess
 from six import PY3
-from distutils.version import LooseVersion
+from looseversion import LooseVersion
 
 import capnpy
 from capnpy import schema
